@@ -1,6 +1,8 @@
 import sublime
 import sublime_plugin
 
+__author__ = 'Taylor Marshall'
+
 
 class CopyFirstRegionCommand(sublime_plugin.TextCommand):
   """Copies the first region selected by the user.
